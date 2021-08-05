@@ -23,7 +23,7 @@ def get_filters():
     city = ''
     #Running this loop to ensure the correct user input gets selected else repeat
     while city not in CITY_DATA.keys():
-        print("\nWelcome to this program. Please choose your city:")
+        print("\nWelcome! Please choose your city:")
         #Taking user input and converting into lower to standardize them
         #You will find this happening at every stage of input throughout this
         city = input().lower()
