@@ -4,10 +4,10 @@
 Include the date you created this project and README file.
 
 ### Project Title
-Replace the Project Title
+Bikeshare exploratory data analysis
 
 ### Description
-Describe what your project is about and what it does
+program uses python, nupy and pandas to perform exploratory analysis of bikeshare data
 
 ### Files used
 Include the files used
