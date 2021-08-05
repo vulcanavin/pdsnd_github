@@ -47,7 +47,7 @@ def get_filters():
             print("\nInvalid . Please try again in the accepted input format.")
 
 
-    print(f"\nYou chose {month.title()} as your month.")
+    print(f"\nYou chose {month.title()}.")
 
     #Creating a list to store all the days including the 'all' option
     DAY_LIST = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
@@ -117,7 +117,7 @@ def time_stats(df):
     # display the most common day of week
     popular_day_of_week = df['day_of_week'].mode()[0]
 
-    print('Most popular Day Of Week:', popular_day_of_week)
+    print('Most popular day:', popular_day_of_week)
 
     # display the most common start hour
     df['hour']=df['Start Time'].dt.hour
